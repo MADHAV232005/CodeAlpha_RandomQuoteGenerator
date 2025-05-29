@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex; /* Arranges items in a row or column */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    min-height: 100vh; /* Makes the body take up the full screen height */
+    margin: 0;
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+    max-width: 500px;
+    width: 90%; /* Responsive width */
+}
+
+h1 {
+    color: #333; /* Dark grey text */
+    margin-bottom: 20px;
+}
+
+.quote-box {
+    margin-bottom: 25px;
+}
+
+#quote {
+    font-size: 1.5em; /* Larger font size */
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#author {
+    font-size: 1.1em;
+    color: #777;
+    display: block; /* Puts the author on a new line below the quote */
+    margin-top: 5px;
+}
+
+#new-quote-btn {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none; /* No border */
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer; /* Changes mouse to a pointer when hovering */
+    transition: background-color 0.3s ease; /* Smooth color change on hover */
+}
+
+#new-quote-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
